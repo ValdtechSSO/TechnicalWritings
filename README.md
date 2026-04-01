@@ -1,60 +1,19 @@
 # TechnicalWritings
 
-Repositorio para escribir, organizar y preparar articulos tecnicos, principalmente de programacion.
+Indice de articulos tecnicos de programacion publicados en este repositorio.
 
-## Estructura sugerida
+## Publicados
 
-```text
-.
-|-- articles/
-|   |-- drafts/
-|   |-- published/
-|-- shared/
-|   |-- assets/
-|   |-- snippets/
-|-- templates/
-|   |-- article-template.md
-```
+### MCP Workflows for Conversational Interfaces
 
-## Criterio
+- English: [Technical Guide to Building Robust and Efficient MCP Workflows for Conversational Interfaces](articles/published/mcp-workflows-for-conversational-interfaces/en/GUIA_TECNICA_WORKFLOWS_MCP_ROBUSTOS_EN.md)
+- Espanol: [Guia tecnica para construir workflows MCP robustos y eficientes en interfaces conversacionales](articles/published/mcp-workflows-for-conversational-interfaces/es/GUIA_TECNICA_WORKFLOWS_MCP_ROBUSTOS_ES.md)
+- Fecha: 2026-04-01
+- Autor: Adrian Mustelier
 
-- `articles/drafts/`: articulos en progreso.
-- `articles/published/`: articulos ya terminados o listos para publicar.
-- `shared/assets/`: imagenes, diagramas o recursos reutilizables.
-- `shared/snippets/`: fragmentos de codigo compartidos entre varios articulos.
-- `templates/article-template.md`: plantilla base para arrancar nuevos articulos.
+## Organizacion
 
-## Estructura recomendada por articulo
-
-Cada articulo puede vivir en su propia carpeta para mantener juntos el texto, los assets y el codigo de ejemplo.
-
-```text
-articles/drafts/nombre-del-articulo/
-|-- article.md
-|-- assets/
-|-- code/
-```
-
-Esto funciona bien para articulos de programacion porque evita mezclar imagenes o ejemplos entre temas distintos.
-
-Si vas a publicar en varios idiomas, conviene que el articulo siga siendo la unidad principal y que cada idioma viva dentro de esa misma carpeta.
-
-```text
-articles/drafts/nombre-del-articulo/
-|-- en/
-|   |-- article.md
-|-- es/
-|   |-- article.md
-|-- assets/
-|-- code/
-```
-
-Asi compartes diagramas, imagenes y ejemplos de codigo entre idiomas sin duplicar contenido tecnico.
-
-## Flujo simple
-
-1. Crear el articulo dentro de `articles/drafts/`.
-2. Escribir el contenido en `article.md`.
-3. Guardar imagenes en `assets/`.
-4. Guardar demos, scripts o proyectos pequenos en `code/`.
-5. Mover la carpeta a `articles/published/` cuando el articulo este listo.
+- `articles/published/`: articulos terminados y listos para consulta.
+- `articles/drafts/`: articulos en trabajo o pendientes de revision.
+- `templates/`: plantillas base para nuevos articulos.
+- `shared/`: recursos reutilizables entre varios articulos.
