@@ -11,6 +11,13 @@ Indice de articulos tecnicos de programacion publicados en este repositorio.
 - Fecha: 2026-04-01
 - Autor: Adrian Mustelier
 
+### Human Cognitive Enhancement
+
+- English: [Will cognitive enhancement be humanity's next great challenge?](articles/published/human_cognitive_enhancement/en/human_cognitive_enhancement_en.md)
+- Espanol: [¿Será el mejoramiento cognitivo el próximo gran reto de la humanidad?](articles/published/human_cognitive_enhancement/es/human_cognitive_enhancement_es.md)
+- Fecha: 2026-06-30
+- Autor: Adrian Mustelier
+
 ## Organizacion
 
 - `articles/published/`: articulos terminados y listos para consulta.
