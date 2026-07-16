@@ -4,6 +4,13 @@ Indice de articulos tecnicos de programacion publicados en este repositorio.
 
 ## Publicados
 
+### Agent-Oriented Software Engineering
+
+- English: [AOSE in Brief: Stop Trusting Your Agent. Start Verifying It.](articles/published/agent-oriented-software-engineering/en/aose_in_brief_en.md)
+- Espanol: [AOSE en pocas palabras: deja de confiar en tu agente. Empieza a verificarlo.](articles/published/agent-oriented-software-engineering/es/aose_in_brief_es.md)
+- Fecha: 2026-07-13
+- Autor: Adrian Mustelier
+
 ### MCP Workflows for Conversational Interfaces
 
 - English: [Technical Guide to Building Robust and Efficient MCP Workflows for Conversational Interfaces](articles/published/mcp-workflows-for-conversational-interfaces/en/GUIA_TECNICA_WORKFLOWS_MCP_ROBUSTOS_EN.md)
