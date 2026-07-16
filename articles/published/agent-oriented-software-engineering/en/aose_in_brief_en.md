@@ -1,6 +1,6 @@
 # AOSE in Brief: Stop Trusting Your Agent. Start Verifying It.
 
-*A short introduction to Agent-Oriented Software Engineering. The full RFC is here: [link to spec].*
+*A short introduction to Agent-Oriented Software Engineering. The full RFC will be available soon.*
 
 ---
 
@@ -10,7 +10,13 @@ It wasn't. When I reviewed it myself, I found missing test diffs, no regression 
 
 That failure wasn't the model's fault. It was mine. I had built a workflow where "done" was something the agent *said*, not something the system *proved*.
 
-This is the central problem of agent-assisted engineering in 2026, and it's why I wrote an RFC proposing a methodology I call **Agent-Oriented Software Engineering (AOSE)**. Not "how to build software using agents" — everyone is already doing that. AOSE is about how to design your repositories, workflows, and controls so that agent work can be *trusted*, at increasing levels of autonomy, without you becoming the bottleneck or the victim.
+This is the central problem of agent-assisted engineering in 2026, and it's why I wrote an RFC proposing an interpretation of **Agent-Oriented Software Engineering (AOSE)** for this new context. Not "how to build software using agents" — everyone is already doing that. This proposal is about how to design your repositories, workflows, and controls so that agent work can be *trusted*, at increasing levels of autonomy, without you becoming the bottleneck or the victim.
+
+## A note on the term
+
+I did not coin AOSE. The term comes from an established research tradition, active since at least the AOSE 2000 workshop, concerned with analyzing, designing, and implementing software systems whose runtime components are autonomous or semi-autonomous agents.
+
+This RFC takes that existing term and adapts its meaning to a related problem: how to engineer software-development environments in which humans collaborate with AI coding agents. It does not replace or claim ownership of classical AOSE; it applies the term's agent-oriented perspective to the context, permissions, contracts, workflows, and evidence that make agent-assisted engineering trustworthy.
 
 Here's the whole methodology in four claims.
 

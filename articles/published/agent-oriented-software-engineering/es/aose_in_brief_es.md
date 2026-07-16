@@ -1,6 +1,6 @@
 # AOSE en pocas palabras: deja de confiar en tu agente. Empieza a verificarlo.
 
-*Una breve introducción a la ingeniería de software orientada a agentes. El RFC completo está aquí: [enlace al RFC].*
+*Una breve introducción a la ingeniería de software orientada a agentes. El RFC completo estará disponible próximamente.*
 
 ---
 
@@ -10,7 +10,13 @@ No lo estaba. Cuando lo revisé personalmente, encontré diferencias de tests qu
 
 Ese fallo no fue culpa del modelo. Fue mía. Había construido un workflow en el que «terminado» era algo que el agente *decía*, no algo que el sistema *demostraba*.
 
-Este es el problema central de la ingeniería asistida por agentes en 2026 y la razón por la que escribí un RFC que propone una metodología a la que llamo **ingeniería de software orientada a agentes (AOSE)**. No trata de «cómo construir software usando agentes» —todo el mundo ya lo está haciendo—. AOSE trata de cómo diseñar repositorios, workflows y controles para que el trabajo de los agentes pueda ser *confiable*, con niveles crecientes de autonomía, sin que tú te conviertas en el cuello de botella ni en la víctima.
+Este es el problema central de la ingeniería asistida por agentes en 2026 y la razón por la que escribí un RFC que propone una interpretación de la **ingeniería de software orientada a agentes (AOSE)** para este nuevo contexto. No trata de «cómo construir software usando agentes» —todo el mundo ya lo está haciendo—. Esta propuesta trata de cómo diseñar repositorios, workflows y controles para que el trabajo de los agentes pueda ser *confiable*, con niveles crecientes de autonomía, sin que tú te conviertas en el cuello de botella ni en la víctima.
+
+## Nota sobre el término
+
+No acuñé el término AOSE. Procede de una tradición de investigación consolidada, activa al menos desde el taller AOSE 2000, centrada en analizar, diseñar e implementar sistemas de software cuyos componentes en tiempo de ejecución son agentes autónomos o semiautónomos.
+
+Este RFC toma ese término existente y adapta su acepción a un problema relacionado: cómo diseñar entornos de desarrollo de software en los que las personas colaboran con agentes de IA que programan. No sustituye a la AOSE clásica ni pretende apropiarse de ella; aplica su perspectiva orientada a agentes al contexto, los permisos, los contratos, los workflows y la evidencia que hacen confiable la ingeniería asistida por agentes.
 
 Toda la metodología se resume en cuatro tesis.
 
